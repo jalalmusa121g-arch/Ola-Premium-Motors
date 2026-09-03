@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ola Premium Motors | Luxury Cars in Benin City</title>
+
+    <meta name="description" content="Ola Premium Motors - Premium and quality vehicles in Maingate, Benin City, Edo State.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div>
+        📞 <a href="tel:08029911091">08029911091</a>
+    </div>
+
+    <div>
+        📍 Maingate, Benin City, Edo State
+    </div>
+</div>
+
+
+<!-- NAVIGATION -->
+<header class="navbar">
+
+    <div class="logo">
+        <span>OLA</span> PREMIUM MOTORS
+    </div>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a
+        class="nav-whatsapp"
+        href="https://wa.me/2348029911091?text=Hello%20Ola%20Premium%20Motors%2C%20I%20am%20interested%20in%20one%20of%20your%20cars."
+        target="_blank">
+        WhatsApp
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            PREMIUM AUTOMOBILES
+        </div>
+
+        <h1>
+            DRIVE WITH <span>CONFIDENCE.</span>
+        </h1>
+
+        <p>
+            Quality cars. Premium service. Trusted dealership.
+            Find your next vehicle with Ola Premium Motors.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#cars" class="btn btn-gold">
+                Explore Cars
+            </a>
+
+            <a
+                href="https://wa.me/2348029911091?text=Hello%20Ola%20Premium%20Motors%2C%20I%20want%20to%20make%20an%20enquiry."
+                target="_blank"
+                class="btn btn-outline">
+                Chat on WhatsApp
+            </a>
+
+        </div>
+
+        <div class="hero-info">
+
+            <div>
+                <strong>📍</strong>
+                Maingate
+            </div>
+
+            <div>
+                <strong>🚘</strong>
+                Quality Vehicles
+            </div>
+
+            <div>
+                <strong>✓</strong>
+                Trusted Service
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CARS -->
+<section class="cars-section" id="cars">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="small-title">OUR INVENTORY</span>
+
+            <h2>Featured <span>Vehicles</span></h2>
+
+            <p>
+                Browse our available premium vehicles.
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- SEARCH -->
+    <div class="filters">
+
+        <div class="search-box">
+            🔎
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for a car...">
+        </div>
+
+        <select id="brandFilter">
+            <option value="all">All Brands</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Honda">Honda</option>
+        </select>
+
+    </div>
+
+
+    <div id="carsGrid" class="cars-grid"></div>
+
+</section>
+
+
+<!-- WHY US -->
+<section class="why-section">
+
+    <div class="section-heading center">
+
+        <span class="small-title">WHY CHOOSE US</span>
+
+        <h2>More Than Just <span>Cars</span></h2>
+
+        <p>
+            We make finding your next vehicle simple and stress-free.
+        </p>
+
+    </div>
+
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <div class="icon">✓</div>
+            <h3>Quality Vehicles</h3>
+            <p>
+                Carefully selected vehicles with quality and value in mind.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="icon">◆</div>
+            <h3>Premium Service</h3>
+            <p>
+                Professional service from enquiry to purchase.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="icon">₦</div>
+            <h3>Great Value</h3>
+            <p>
+                Competitive prices on premium vehicles.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="icon">★</div>
+            <h3>Trusted Dealer</h3>
+            <p>
+                A dealership focused on customer satisfaction.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+
+    <div class="about-image">
+        <div class="about-badge">
+            OLA PREMIUM<br>
+            MOTORS
+        </div>
+    </div>
+
+    <div class="about-content">
+
+        <span class="small-title">ABOUT US</span>
+
+        <h2>
+            Your Trusted <span>Automobile Partner</span>
+        </h2>
+
+        <p>
+            Ola Premium Motors is a premium automobile dealership
+            located in Maingate, Benin City, Edo State.
+        </p>
+
+        <p>
+            We are committed to helping customers find quality vehicles
+            that match their needs and lifestyle.
+        </p>
+
+        <div class="about-points">
+
+            <div>✓ Quality Cars</div>
+            <div>✓ Professional Service</div>
+            <div>✓ Customer Satisfaction</div>
+            <div>✓ Easy Enquiries</div>
+
+        </div>
+
+        <a
+            href="https://www.google.com/maps/search/?api=1&query=Maingate%20Benin%20City%20Edo%20State"
+            target="_blank"
+            class="btn btn-gold">
+            📍 Find Our Location
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+
+    <div class="section-heading center">
+
+        <span class="small-title">OUR SERVICES</span>
+
+        <h2>What We <span>Offer</span></h2>
+
+    </div>
+
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <div class="service-icon">🚘</div>
+            <h3>Car Sales</h3>
+            <p>
+                Premium and quality vehicles available for purchase.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🔄</div>
+            <h3>Vehicle Swap</h3>
+            <p>
+                Ask us about available vehicle swap opportunities.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🤝</div>
+            <h3>Car Sourcing</h3>
+            <p>
+                Need a specific vehicle? Contact us and let's help.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">💬</div>
+            <h3>Consultation</h3>
+            <p>
+                Get assistance choosing a vehicle that suits you.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+
+    <div class="section-heading center">
+
+        <span class="small-title">OUR SHOWROOM</span>
+
+        <h2>Premium <span>Gallery</span></h2>
+
+        <p>
+            Take a look at some of our vehicles.
+        </p>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+        <img src="images/glk1.jpg" alt="Mercedes-Benz GLK 350">
+        <img src="images/gle1.jpg" alt="Mercedes-Benz GLE 43 AMG">
+        <img src="images/lexus1.jpg" alt="Lexus">
+        <img src="images/honda.jpg" alt="Honda">
+
+    </div>
+
+</section>
+
+
+<!-- REVIEWS -->
+<section class="reviews-section">
+
+    <div class="section-heading center">
+
+        <span class="small-title">CUSTOMER EXPERIENCE</span>
+
+        <h2>Why Customers <span>Choose Us</span></h2>
+
+    </div>
+
+
+    <div class="reviews-grid">
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                "Professional service and a beautiful selection of vehicles."
+            </p>
+
+            <strong>Happy Customer</strong>
+        </div>
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                "The process was smooth and the team was helpful."
+            </p>
+
+            <strong>Verified Customer</strong>
+        </div>
+
+        <div class="review">
+            <div class="stars">★★★★★</div>
+
+            <p>
+                "Great communication and quality vehicles."
+            </p>
+
+            <strong>Satisfied Customer</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact-cta" id="contact">
+
+    <div>
+
+        <span class="small-title">READY TO BUY?</span>
+
+        <h2>
+            Find Your Next <span>Dream Car.</span>
+        </h2>
+
+        <p>
+            Contact Ola Premium Motors today.
+        </p>
+
+    </div>
+
+
+    <div class="contact-buttons">
+
+        <a href="tel:08029911091" class="btn btn-white">
+            📞 Call 08029911091
+        </a>
+
+        <a
+            href="https://wa.me/2348029911091?text=Hello%20Ola%20Premium%20Motors%2C%20I%20want%20to%20buy%20a%20car."
+            target="_blank"
+            class="btn btn-gold">
+            WhatsApp Us
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-logo">
+        <span>OLA</span> PREMIUM MOTORS
+    </div>
+
+    <p>
+        Premium automobiles in Maingate, Benin City, Edo State.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Ola Premium Motors. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<!-- FLOATING WHATSAPP -->
+<a
+    href="https://wa.me/2348029911091?text=Hello%20Ola%20Premium%20Motors%2C%20I%20am%20interested%20in%20your%20cars."
+    target="_blank"
+    class="floating-whatsapp">
+    💬
+</a>
+
+
+<!-- CAR MODAL -->
+<div id="carModal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close-modal" onclick="closeCarModal()">
+            ×
+        </button>
+
+        <div class="modal-gallery">
+
+            <button
+                class="gallery-arrow left"
+                onclick="previousImage()">
+                ‹
+            </button>
+
+            <img
+                id="modalCarImage"
+                src=""
+                alt="Vehicle">
+
+            <button
+                class="gallery-arrow right"
+                onclick="nextImage()">
+                ›
+            </button>
+
+        </div>
+
+        <div id="modalThumbs" class="modal-thumbs"></div>
+
+        <div class="modal-info">
+
+            <h2 id="modalCarName"></h2>
+
+            <div id="modalCarDetails"></div>
+
+            <div
+                id="modalCarPrice"
+                class="modal-price">
+            </div>
+
+            <a
+                id="modalWhatsapp"
+                href="#"
+                target="_blank"
+                class="btn btn-gold modal-whatsapp">
+                💬 Enquire on WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
